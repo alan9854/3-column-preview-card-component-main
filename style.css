@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+main {
+  flex-direction: row;
+  align-items: stretch;
+  color: white;
+  max-width: 57rem;
+}
+
+.test {
+  border-radius: 20rem;
+}
+
+.card {
+  padding: 2.5rem;
+}
+.card h1 {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+.card p {
+  padding-bottom: 5rem;
+}
+
+button {
+  width: 8rem;
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  border: 2px solid hsl(0deg, 0%, 95%);
+}
+
+.first {
+  background-color: var(--Bright-orange);
+}
+.first button {
+  color: var(--Bright-orange);
+}
+.first button:hover {
+  background-color: var(--Bright-orange);
+  color: white;
+  border-color: white;
+}
+
+.sec {
+  background-color: var(--Dark-cyan);
+}
+.sec button {
+  color: var(--Dark-cyan);
+}
+.sec button:hover {
+  background-color: var(--Dark-cyan);
+  color: white;
+  border-color: white;
+}
+
+.third {
+  background-color: var(--Very-dark-cyan);
+}
+.third button {
+  color: var(--Very-dark-cyan);
+}
+.third button:hover {
+  background-color: var(--Very-dark-cyan);
+  color: white;
+  border-color: white;
+}/*# sourceMappingURL=style.css.map */
